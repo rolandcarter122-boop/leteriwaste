@@ -1,0 +1,48 @@
+<br><br><br><br>
+    <div class="containeralooma" id="contact">
+        <section class="boxalooma">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="template4 h2alooma" style="margin-left: 400px; font-size: larger; font-family: Verdana, Geneva, Tahoma, sans-serif;">Frequently Asked Questions</h2>
+                <h4 class="template4 palooma" style="font-size:medium;">What is the most common reason for an extra charge on a dumpster rental?
+                </h4>
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">The most common reasons are overloading the dumpster past the weight limit included in your quote or disposing of prohibited items like tires, hazardous waste, or electronics. We are upfront about all potential charges and will help you choose a roll off dumpster size in #State to avoid them.</p>
+                <h4 class="template4 palooma" style="font-size:large;">Can I put the dumpster on the street?
+                </h4>
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">In most municipalities, placing a roll off dumpster on a public street requires a permit. We recommend checking with your local city or town hall before scheduling your delivery if you cannot place it on your own property.</p>
+                <h4 class="template4 palooma" style="font-size:large;">What if I fill my dumpster and my project isn't finished?
+                </h4>
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">No problem at all. Just give us a call, and we can schedule what’s called a "dump and return." We will come pick up the full dumpster and deliver a fresh, empty one so your project doesn't lose momentum.</p>
+                <h4 class="template4 palooma" style="font-size:large;"> What is the difference between construction debris and household junk?
+                </h4>
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Construction debris includes materials like wood, drywall, roofing, and siding. Household junk is more general, like old furniture, clothes, and clutter. Both can go in our dumpsters, but heavy debris like concrete needs its own dedicated concrete roll off dumpster in #State.</p>
+                <h4 class="template4 palooma" style="font-size:large;">How far in advance do I need to order my dumpster?
+                </h4>
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">We recommend ordering your roll off rental at least 24-48 hours in advance. For our emergency storm cleanup service, we do our best to provide same-day service whenever possible.</p>
+                <div class="callalooma mx-auto"><a href="tel:820-218-6680">Click Here To Call Us (820) 218-6680</a></div>
+            </div>
+        </div>
+        </section>
+    </div>
+    
+    
+    <br><br><br><br>
+    <div class="containeralooma">
+        <section class="boxalooma" style="text-align: center;">
+        <h2 class="heading-with-line template4 h2alooma">#State Insights: Population,<br> Zip Codes, Influence, and Service Areas</h2>
+        <p>aloomaidcontentscity</p>
+        <p style="color:black;">Zip Codes in #State that we also serve: <i>aloomaidzip</i></p>
+        </section>
+    </div>
+
+    <br><br><br><br>
+    <div class="containeralooma" style="background-color: transparent; width: 100%;">
+        <section class="boxalooma" style="text-align: center;">
+        <h2 class="heading-with-line template4 h2alooma">Cities Close To #State That We Also Serve</h2>
+        <div class="row">
+            aloomaidcitycloseto
+        </div>
+        <br><br>
+        aloomaidembeddedmap
+        </section>
+    </div>

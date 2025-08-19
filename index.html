@@ -1,0 +1,1200 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+      <title>Affordable Dumpster & Roll-Off Rentals in USA. Leteri Dumpster Rental</title>
+        <meta name="title" content="Affordable Dumpster & Roll-Off Rentals in USA. Leteri Dumpster Rental" />
+        <meta name="robots" content="NOODP, NOYDIR, index, follow" />
+        <link rel="canonical" href="https://leteriwaste.com/" />
+        <meta name="description" content="Leteri Dumpster Rental offers affordable, fast, and reliable dumpster & roll-off rentals in USA for residential, commercial, and construction needs. Call today!" />
+        <meta property="og:title" content="Affordable Dumpster & Roll-Off Rentals in USA. Leteri Dumpster Rental" />
+        <meta property="og:description" content="Leteri Dumpster Rental offers affordable, fast, and reliable dumpster & roll-off rentals in USA for residential, commercial, and construction needs. Call today!" />
+        <meta property="og:type" content="article" />
+        <meta property="og:site_name" content="Leteri Dumpster Rental" />
+        
+        <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap" rel="stylesheet">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="static/img/favicon.png" rel="icon">
+  <link href="static/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link rel="stylesheet" href="static/aloomaspecial/alooma.css">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Marcellus:wght@400&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="static/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="static/vendor/aos/aos.css" rel="stylesheet">
+  <link href="static/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="static/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="static/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: AgriCulture
+  * Template URL: https://bootstrapmade.com/agriculture-bootstrap-website-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+<link rel="stylesheet" href="static/aloomaspecial/alooma.css"><link rel="stylesheet" href="static/aloomaspecial/alooma2.css"></head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center position-relative">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+      <img src="static/img/logo.png" style="width: 5%; height: 50px;">
+      <h5 style="margin-right: 475px;">Rental</h5>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="/" class="active">Home</a></li>
+          <li><a href="#">Review</a></li>
+          <li><a href="#">Our services</a></li>
+          <li><a href="#">About</a></li>
+          <div class="d-flex align-items-center flex-nowrap pt-xl-0" style="margin-left: 15px; font-family: calibri;">
+              <a href="tel:820218-6680" class="btn-hover-bg btn btn-primary text-white py-2 px-4 me-3" style="background-color: red; border: solid white;">Contact Us</a>
+          </div>
+            </ul>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+
+        <div class="carousel-item active">
+          <img src="static/img/hero_1.jpg" alt="">
+          <div class="carousel-container">
+            <h4>Welcome To</h4>
+            <h1>Leteri Dumpster Rental USA</h1>
+            <p style="text-align: center;">Your cleanup just got an upgrade. From small weekend projects to major construction overhauls, we bring you sturdy dumpsters, fast delivery, and service that works as hard as you do , all at a price that makes sense.</p>
+            <div class="d-flex align-items-center flex-nowrap pt-xl-0" style="margin-left: 15px; font-family: calibri;">
+              <a href="tel:820218-6680" class="btn-hover-bg btn btn-primary text-white py-2 px-4 me-3" style="background-color: red; border: solid white;"><b>Click Here To Call Us (820) 218-6680</b></a>
+          </div>
+          </div>
+        </div><!-- End Carousel Item -->
+      </div>
+
+    </section><!-- /Hero Section -->
+    
+    <div id="output"></div>
+    <script>
+        
+        function getContents(selectedContents, splitInfo) {
+            let [header, paragraph] = selectedContents.split(splitInfo);
+            header = header.replace(/<br>/g, '');
+            paragraph = paragraph.replace(/<br><br>/g, '<br>');
+
+            let secondPart = '';
+            if (paragraph.includes('<list>')) {
+                let [partParagraph, listParagraph] = paragraph.split('<list>');
+                let listItems = listParagraph.replace(/<br>/g, '').replace(/\n/g, '').split('^^');
+                let appendAllList = listItems.map(item => `<li>${item}</li>`).join('');
+                secondPart = `<ul>${appendAllList}</ul>`;
+                return [header, partParagraph, secondPart];
+            }
+            return [header, paragraph, secondPart];
+        }
+
+        function cleanText(htmlContent) {
+            let result = htmlContent;
+            let regex = /{([^{}()]+)}/g;
+            result = result.replace(regex, (match, p1) => {
+                if (p1.includes('|')) {
+                    let options = p1.split('|');
+                    return options[Math.floor(Math.random() * options.length)];
+                }
+                return p1;
+            });
+            return result.replace(/{|}/g, '');
+        }
+
+        function handleTemplate(option1, option2) {
+            return Math.random() > 0.5 ? option1 : option2;
+        }
+
+        function generateContentsBody(phoneNumber, longForm, shortForm, imageList, data, siteName) {
+            data = data.replace(/&amp;/g, 'and').replace(/\n/g, '<br>').replace(/<br><br><br>/g, '<br>').trim();
+            data = cleanText(data);
+            let allReformattedBody = '';
+            let usedImage = [];
+            let sanitizedPhone = phoneNumber.replace(/\s|\(|\)|-/g, '');
+            let phoneNumberUrl = `tel:${sanitizedPhone}`;
+            let allData = data.split('$$');
+
+            let myNini = 0;
+            allData.forEach(selectedContents => {
+                selectedContents = selectedContents.trim().replace(/\n/g, '');
+                let singleTemplateChecker = '';
+                let replace_long_form= `<div class="col-m-6 col-l-6">
+                                    aloomalongform
+                                </div>`;
+                let replace_short_form= `<div class="col-m-4 col-l-4">
+                                        aloomashortform
+                                    </div>`;
+                
+                if (selectedContents.includes('%%')) {
+                    let multipleChecker = selectedContents.split('%%').length;
+                    
+                    if (selectedContents.includes('<review>')) {
+                        singleTemplateChecker = '<template9>';
+                    }else if (selectedContents.includes('<faq>')) {
+                        singleTemplateChecker = '<template10>';
+                    } else if (multipleChecker === 2) {
+                        singleTemplateChecker = '<template7>';
+                    } else if (multipleChecker === 3) {
+                        singleTemplateChecker = '<template5>';
+                    }
+                } else {
+                    if (selectedContents.includes('<contact>')) {
+                        singleTemplateChecker = '<template8>';
+                    }  else {
+                        if (myNini === 0) {
+                            singleTemplateChecker = handleTemplate('<template1>', '<template4>');
+                        } else if (myNini === 2) {
+                            singleTemplateChecker = handleTemplate('<template2>', '<template3>');
+                        } else {
+                            singleTemplateChecker = '<template6>';
+                        }
+                        myNini++;
+                    }
+                }
+                
+                if (singleTemplateChecker === '<template1>' ||
+                    singleTemplateChecker === '<template2>' ||
+                    singleTemplateChecker === '<template3>' ||
+                    singleTemplateChecker === '<template4>'
+                ) {
+                    let [header, mainParagraph, secondPart] = getContents(selectedContents, '<h2>');
+                    if (singleTemplateChecker === '<template1>'){
+                        let templateData1 = `<!-- Template 1.1 Start -->
+                        <br><br>
+                        <div class="containeralooma">
+                            <section class="boxalooma">
+                            <div class="row">
+                                <div class="col-m-6 col-l-6">
+                                    <h2 class="template1 h2alooma">aloomaidheader</h2>
+                                    <p class="template1 palooma">aloomaidparagraph</p>
+                                    aloomalistdata
+                                    <div class="callalooma"><a href="aloomaidphonenumberurl">Click Here To Call Us aloomaidphonenumberful</a></div>
+                                </div>
+                                <div class="col-m-6 col-l-6">
+                                    aloomalongform
+                                </div>
+
+                            </div>
+                            </section>
+                        </div>
+
+                        <!-- Template 1.1 End -->`;
+                        templateData = templateData1;
+                    }
+                    else if (singleTemplateChecker === '<template2>') {
+                        let templateData2 = `<!-- Template 2 Start -->
+                        <br><br><br><br>
+                        <div class="containeralooma" id="ourservices">
+                            <section class="boxalooma">
+                            <div class="row">
+                                <h2 class="template2 mx-auto">aloomaidheader </h2>
+                                <p class="template2 palooma mx-auto">aloomaidparagraph
+                                </p>
+                                <div class="col-m-8 col-l-8">
+                                    aloomalistdata
+                                    <div class="callalooma"><a href="aloomaidphonenumberurl">Click Here To Call Us aloomaidphonenumberful</a></div>
+                                </div>
+                                <div class="col-m-4 col-l-4">
+                                        aloomashortform
+                                    </div>
+                                
+                            </div>
+                            </section>  
+                        </div>
+
+                        <!-- Template 2 End -->`;
+                        templateData = templateData2;
+                    }
+                    else if (singleTemplateChecker === '<template3>') {
+                        let templateData3 = `<!-- Template 3 Start -->
+                        <br><br><br><br>
+                        <div class="containeralooma">
+                            <section class="boxalooma">
+                                <div class="row">
+                                    <div class="col-m-4 col-l-4">
+                                        aloomashortform
+                                    </div>
+                                    <div class="col-m-8 col-l-8">
+                                        <h2 class="h2alooma template3">aloomaidheader</h2>
+                                        <p class="template3 palooma">aloomaidparagraph
+                                        </p>
+                                aloomalistdata
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                
+                                        <div class="callalooma"><a href="aloomaidphonenumberurl">Click Here To Call Us aloomaidphonenumberful</a></div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+
+
+                        <!-- Template 3 End -->`;
+                        templateData = templateData3;
+                    }
+                    else if (singleTemplateChecker === '<template4>') {
+                        let templateData4 = `<!-- Template 4 Start -->
+                        <br><br><br><br>
+                        <div class="containeralooma">
+                            <section class="boxalooma">
+                                <div class="row">
+                                    <div class="col-m-6 col-l-6">
+                                        <h2 class="template4 h2alooma">aloomaidheader</h2>
+                                        <p class="template4 palooma">aloomaidparagraph
+                                        </p>
+                                        aloomalistdata
+                                        <div class="callalooma mx-auto"><a href="aloomaidphonenumberurl">Click Here To Call Us aloomaidphonenumberful</a></div>
+                                        
+                                    </div>
+                                    <div class="col-m-6 col-l-6">
+                                    aloomalongform
+                                </div>
+                                </div>
+                        
+                                
+                            </section>
+                        </div>
+
+                        <!-- Template 4 End -->`;
+                        templateData = templateData4;
+                    }
+                    if (longForm.length > 3) {
+                        templateData = templateData.replace(/aloomaidheader/g, header)
+                            .replace(/aloomaidparagraph/g, mainParagraph)
+                            .replace(/aloomalistdata/g, secondPart)
+                            .replace(/aloomalongform/g, longForm)
+                            .replace(/aloomashortform/g, shortForm)
+                            .replace(/aloomaidphonenumberful/g, phoneNumber)
+                            .replace(/aloomaidphonenumberurl/g, phoneNumberUrl);
+                    } else {
+                        templateData = templateData.replace(/aloomaidheader/g, header)
+                            .replace(/aloomaidparagraph/g, mainParagraph)
+                            .replace(/aloomalistdata/g, secondPart)
+                            .replace(replace_long_form, '')
+                            .replace(replace_short_form, '')
+                            .replace(/col-m-6 col-l-6/g, '')
+                            .replace(/aloomaidphonenumberful/g, phoneNumber)
+                            .replace(/aloomaidphonenumberurl/g, phoneNumberUrl);
+                    }
+                    allReformattedBody += templateData;
+                }
+                else if (singleTemplateChecker === '<template5>') {
+                    
+                    let templateData = `<!-- Template 5 Start -->
+                        <br><br><br><br>
+                        <div class="containeralooma" id="About">
+                            <section class="boxalooma">
+                            <div class="row">
+                                <div class="col-m-4 col-l-4">
+                                    <h2 class="template4 h2alooma">aloomaidheader</h2>
+                                    <p class="template4 palooma">aloomaidparagraph
+                                    </p>
+                                    aloomalistdata
+                                    <div class="callalooma mx-auto"><a href="aloomaidphonenumberurl">Click Here To Call Us aloomaidphonenumberful</a></div>
+                                </div>
+                                <div class="col-m-4 col-l-4">
+                                    <h2 class="template4 h2alooma">aloomaidheader</h2>
+                                    <p class="template4 palooma">
+                                    aloomaidparagraph
+                                    </p>
+                                    aloomalistdata
+                                    <div class="callalooma mx-auto"><a href="aloomaidphonenumberurl">Click Here To Call Us aloomaidphonenumberful</a></div>
+                                </div>
+                                <div class="col-m-4 col-l-4">
+                                    <h2 class="template4 h2alooma">aloomaidheader</h2>
+                                    <p class="template4 palooma">aloomaidparagraph
+                                    </p>
+                                    aloomalistdata
+                                    <div class="callalooma mx-auto"><a href="aloomaidphonenumberurl">Click Here To Call Us aloomaidphonenumberful</a></div>
+                                </div>
+                            </div>
+                            </section>
+                        </div>
+
+                        <!-- Template 5 End -->`;
+                    let allDataSplit = selectedContents.split('%%');
+                    
+                    allDataSplit.forEach(dataSplit => {
+                        let [header, mainParagraph, secondPart] = getContents(dataSplit, '<h2>');
+                        templateData = templateData
+                            .replace(/aloomaidheader/, header)
+                            .replace(/aloomaidparagraph/, mainParagraph)
+                            .replace(/aloomalistdata/, secondPart)
+                            .replace(/aloomalongform/, longForm)
+                            .replace(/aloomashortform/, shortForm)
+                            .replace(/aloomaidphonenumberful/, phoneNumber)
+                            .replace(/aloomaidphonenumberurl/, phoneNumberUrl);
+                    });
+                    allReformattedBody += templateData;
+                }
+                else if (singleTemplateChecker === '<template6>') {
+                    let [header, mainParagraph, secondPart] = getContents(selectedContents, '<h2>');
+                    let templateData = `<!-- Template 6 Start -->
+                        <br><br><br><br>
+                        <div class="containeralooma">
+                            <section class="boxalooma">
+                                <div class="row">
+                                    <div class="col-m-8 col-l-8">
+                                        <h2 class="template4 h2alooma">aloomaidheader</h2>
+                                        <p class="template4 palooma">aloomaidparagraph</p>
+                                        aloomalistdata
+                                        <div class="callalooma mx-auto"><a href="aloomaidphonenumberurl">Click Here To Call Us aloomaidphonenumberful</a></div>
+                                    </div>
+                                    <div class="col-m-4 col-l-4">
+                                        <img style="width: 100%" class="aloomacssidimage" src="aloomaidpickimage" alt="aloomaidalttitle">
+                                        <br>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+
+                        <!-- Template 6 End -->`;
+                    let counter = 0;
+                    let pickImage;
+                    do {
+                        pickImage = imageList[Math.floor(Math.random() * imageList.length)];
+                        counter++;
+                    } while (usedImage.includes(pickImage) && counter < 20);
+                    usedImage.push(pickImage);
+                    let altText = pickImage.split('.')[0];
+                    
+                    templateData = templateData.replace('aloomaidheader', header)
+                        .replace('aloomaidparagraph', mainParagraph)
+                        .replace('aloomalistdata', secondPart)
+                        .replace('aloomalongform', longForm)
+                        .replace('aloomashortform', shortForm)
+                        .replace('aloomaidphonenumberful', phoneNumber)
+                        .replace('aloomaidphonenumberurl', phoneNumberUrl)
+                        .replace('aloomaidpickimage', pickImage)
+                        .replace('aloomaidalttitle', altText);
+                    allReformattedBody += templateData;
+                }
+                else if (singleTemplateChecker === '<template7>'){
+                    let counter = 0, pickImage, pickImage1;
+                    while (counter < 20) {
+                        counter++;
+                        pickImage = imageList[Math.floor(Math.random() * imageList.length)];
+                        if (!usedImage.includes(pickImage)) break;
+                    }
+
+                    usedImage.push(pickImage);
+
+                    let counter1 = 0;
+                    while (counter1 < 20) {
+                        counter1++;
+                        pickImage1 = imageList[Math.floor(Math.random() * imageList.length)];
+                        if (!usedImage.includes(pickImage1)) break;
+                    }
+
+                    let altText = pickImage.split('.')[0];
+                    let altText1 = pickImage1.split('.')[0];
+
+                    let templateData = `<!-- template 7 -- two subtopic with a list and image-->
+                        <br><br><br><br>
+                        <div class="containeralooma">
+                            <section class="boxalooma">
+                            <div class="row">
+                                <div class="col-m-6 col-l-6">
+                                    <h2 class="template4 h2alooma">aloomaidheader</h2>
+                                    <p class="template4 palooma">aloomaidparagraph
+                                    </p>
+                                    aloomalistdata
+                                    <div class="callalooma mx-auto"><a href="aloomaidphonenumberurl">Click Here To Call Us aloomaidphonenumberful</a></div>
+                                    <br><br>
+                                    <img class="aloomacssidimage" src="aloomaidpickimage" alt="aloomaidalttitle">
+                                </div>
+                                <div class="col-m-6 col-l-6">
+                                    <img class="aloomacssidimage" src="aloomaidpickimage" alt="aloomaidalttitle">
+                                    <br><br>
+                                    <h2 class="template4 h2alooma">aloomaidheader</h2>
+                                    <p class="template4 palooma">aloomaidparagraph</p>
+                                    aloomalistdata
+                                    <div class="callalooma mx-auto"><a href="aloomaidphonenumberurl">Click Here To Call Us aloomaidphonenumberful</a></div>
+                                </div>
+                            </div>
+                            </section>
+                        </div>`;
+
+                    let allDataSplit = selectedContents.split("%%");
+                    
+                    allDataSplit.forEach(data => {
+                        let [ header, mainParagraph, secondPart ] = getContents(data, "<h2>");
+                        
+                        templateData = templateData
+                            .replace("aloomaidheader", header)
+                            .replace("aloomaidparagraph", mainParagraph)
+                            .replace("aloomalistdata", secondPart)
+                            .replace("aloomalongform", longForm)
+                            .replace("aloomashortform", shortForm)
+                            .replace("aloomaidphonenumberful", phoneNumber)
+                            .replace("aloomaidphonenumberurl", phoneNumberUrl)
+                            .replace("aloomaidpickimage", pickImage)
+                            .replace("aloomaidpickimage", pickImage1)
+                            .replace("aloomaidalttitle", altText)
+                            .replace("aloomaidalttitle", altText1);
+                    });
+
+                    allReformattedBody += templateData;
+                    usedImage.push(pickImage1);
+                }
+                else if (singleTemplateChecker === "<template8>") {
+                    // Template 8: Contact template with 1 subtopic
+                    let [ header, mainParagraph, secondPart ] = getContents(selectedContents, "<h2>");
+                    let templateData = `<br><br><br><br>
+                        <div class="containeralooma" id="contact">
+                            <section class="boxalooma">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h2 class="template4 h2alooma">aloomaidheader</h2>
+                                    <p class="template4 palooma">aloomaidparagraph
+                                    </p>
+                                    <div class="callalooma mx-auto"><a href="aloomaidphonenumberurl">Click Here To Call Us aloomaidphonenumberful</a></div>
+                                </div>
+                            </div>
+                            </section>
+                        </div>
+                    `;
+
+                    templateData = templateData
+                        .replace("aloomaidheader", header)
+                        .replace("aloomaidparagraph", mainParagraph)
+                        .replace("aloomalistdata", secondPart)
+                        .replace("aloomalongform", longForm)
+                        .replace("aloomashortform", shortForm)
+                        .replace("aloomaidphonenumberful", phoneNumber)
+                        .replace("aloomaidphonenumberurl", phoneNumberUrl)
+                        .replace("<contact>", "");
+
+                    allReformattedBody += templateData;
+                } 
+                else if (singleTemplateChecker === "<template9>") {
+                    // Template 9: Reviews
+                    let allCommentsData = "";
+                    let allDataSplit = selectedContents.split("%%");
+                    let commentsTemplate= `<br><br><br><br>
+                    <div class="col-m-4">
+                        <i class='fa-solid fa-star' style="color: gold; font-size: 20px;"></i><i class='fa-solid fa-star' style="color: gold; font-size: 20px;"></i><i class='fa-solid fa-star' style="color: gold; font-size: 20px;"></i><i class='fa-solid fa-star' style="color: gold; font-size: 20px;"></i><i class='fa-solid fa-star' style="color: gold; font-size: 20px;"></i>
+                        <p class="template4 palooma">aloomaidcomments</p>
+                        <label for="" style="float: right;">aloomaidcommenname</label>
+                    </div>`;
+                    allDataSplit.forEach(data => {
+                        
+                        let [comments, customerName, secondPart ] = getContents(data, "<h2>");
+                        allCommentsData += commentsTemplate
+                            .replace("aloomaidcomments", comments)
+                            .replace("aloomaidcommenname", customerName);
+                    });
+
+                    let templateData = `<!-- Reviews  -->
+                    <br><br><br><br>
+                    <div class="containeralooma" id="review">
+                        <section class="boxalooma" style="text-align: center;">
+                        <h2 class="heading-with-line template4 h2alooma">Customer Reviews</h2>
+                        <div class="row">
+                            aloomaidallcomments
+                        </div>
+                        </section>
+                    </div>`;
+
+                    templateData = templateData
+                        .replace("aloomaidallcomments", allCommentsData)
+                        .replace("<review>", "");
+
+                    allReformattedBody += templateData;
+                }
+                else if (singleTemplateChecker === "<template10>") {
+                    // Template 9: Faq
+                    let allCommentsData = "";
+                    let allDataSplit = selectedContents.split("%%");
+                    let commentsTemplate= `<h4 class="template4 palooma">aloomaidcomments</h4>
+                    <p>aloomaidcommenname</p>
+                    `;
+                    allDataSplit.forEach(data => {
+                        
+                        let [comments, customerName, secondPart ] = getContents(data, "<h2>");
+                        allCommentsData += commentsTemplate
+                            .replace("aloomaidcomments", comments)
+                            .replace("aloomaidcommenname", customerName);
+                    });
+
+                    let templateData = `<br><br><br><br>
+                    <div class="containeralooma" id="contact">
+                        <section class="boxalooma">
+                        <div class="row">
+                            <div class="col-12">
+                                <h2 class="template4 h2alooma" style="margin-left: 400px;">Frequently Asked Questions in USA</h2>
+                                aloomaidallcomments
+                                
+                            </div>
+                        </div>
+                        </section>
+                    </div>`;
+
+                    templateData = templateData
+                        .replace("aloomaidallcomments", allCommentsData)
+                        .replace("<faq>", "");
+
+                    allReformattedBody += templateData;
+                }
+                
+            });
+            
+
+            document.getElementById("output").innerHTML = allReformattedBody;
+        }
+
+        // Example usage
+        document.addEventListener("DOMContentLoaded", function() {
+            let sampleData = `Local Dumpster Rentals in USA, Big Jobs or Small, We Handle It All<h2>
+
+Every major project, whether it’s a planned renovation or a sudden cleanup, has an aftermath. It’s the chaotic middle-ground between what was and what will be. It's the pile of old shingles on the lawn, the mountain of debris after a storm, the outdated fixtures from a remodeled office. At Leteri Dumpster in USA, we believe that navigating this aftermath is the most critical step toward progress. We're not just a dumpster rental company in USA; we are your partners in the aftermath. We provide the sturdy, reliable tools you need to bring order to chaos, so you can begin the important work of rebuilding, reimagining, and moving forward.
+
+$$
+
+About Us: Bringing Order to Your Chaos<h2>
+
+We founded Leteri Dumpster in USA because we understand that stress. We’ve seen the look on a homeowner's face after a storm and the determination of a business owner during a renovation. In those moments, you need a partner who is calm, efficient, and utterly dependable. Our mission is to be that partner. We are a team of logistics professionals who believe that a simple, honest service can be a powerful force for good. We provide a reliable roll off service in USA with clear, easy-to-understand roll off dumpster rental prices, because the last thing you need during a stressful project is a surprise on your invoice. We’re here to help you clear the way.
+
+%%
+
+Our Services: A Dumpster for Every Situation<h2>
+
+Choosing the right roll off dumpster rental near me in USA shouldn't be another source of stress. We’ve designed our services to be straightforward, offering a range of roll off dumpster sizes to handle the aftermath of any project.<list>
+
+10-Yard Roll-Off Dumpster: The perfect tool for a focused cleanup. This 10 yard roll off dumpster is ideal for the debris from a small bathroom remodel, a weekend garage purge, or a landscaping project.^^
+
+20-Yard Roll-Off Dumpster: Our most popular and versatile choice. A 20 yard roll off dumpster rental is the standard for most residential projects, including kitchen renovations, roofing jobs, and significant decluttering efforts before a move.^^
+
+30-Yard Roll-Off Dumpster: The solution for substantial commercial and residential projects. The 30 yard roll off dumpster is built to handle the waste from an entire office remodel or a major home addition.^^
+
+40-Yard Roll-Off Dumpster: The ultimate container for large-scale aftermaths. Our 40 yard roll off dumpster is essential for community-wide storm cleanups, new construction sites, and major demolition projects.
+
+$$
+
+Emergency Dumpster Rentals in USA for Storm Cleanup<h2>
+
+When a storm hits, it leaves behind a path of destruction and a feeling of being overwhelmed. The sight of downed trees, damaged siding, and scattered debris can be paralyzing. Our emergency dumpster rental service in USA is designed to be your first step toward recovery. We prioritize these situations, dispatching a roll off dumpster container to your property as quickly as possible. This isn't just about providing a trash roll off service; it's about delivering a tangible tool for hope. It allows you to start the physical process of clearing the debris, which is often the first, most powerful step in reclaiming your home and your peace of mind.
+
+%%
+
+Residential Dumpster Rentals in USA for Your Next Home Project<h2>
+
+Your home is your canvas. Whether you’re finally creating your dream kitchen, updating a dated bathroom, or finishing the basement, every home project is an act of creation. But before you can build the new, you have to clear away the old. Our residential dumpster rentals in USA are designed to be a seamless part of your creative process. Renting a 10-yard or 20-yard roll off means you have a dedicated space for old cabinets, drywall, flooring, and fixtures. It keeps your workspace clean and safe, allowing you to focus your energy on the vision, not the mess.
+
+$$
+
+Dumpster Rentals in USA for Office Renovations and Remodels<h2>
+
+An office renovation is more than a construction project; it's an investment in your company's culture and future. It's about creating a space that fosters collaboration and productivity. Managing the waste from old cubicles, carpets, and drywall is a critical logistical component. Our commercial dumpster rentals in USA ensure that your project stays on schedule. A well-placed roll off dumpster keeps your site orderly and safe, minimizing disruptions to your business operations. We provide the reliable dumpster roll off service in USA that allows your general contractor to work efficiently, bringing your vision for a new, improved workspace to life.
+
+$$
+
+<review>
+
+After the big wind storm, our yard was a disaster. Leteri had a 20 yard roll off dumpster here the very next morning. Their rapid response made a horrible situation feel manageable. So grateful.<h2> - The Garcia Family
+
+%%
+
+We rented a 10 yard roll off for our bathroom remodel. It was the perfect size. The team at Leteri was so helpful on the phone, and the roll off dumpster rental cost was very reasonable.<h2> - Mark P
+
+%%
+
+Our office remodel was a huge undertaking. Leteri's professionalism with their 30 yard roll off dumpster was top-notch. They coordinated with our contractor for drop-off and pickup, and it was flawless.<h2> - Sarah, Office Manager
+
+$$
+
+Contact Us<h2>
+
+Ready to face the aftermath and start your next chapter? Contact the friendly, professional team at Leteri Dumpster today for a free quote and expert advice.`;
+            let dataList = sampleData.includes('@@@') 
+                ? sampleData.split('@@@').map(item => item.trim()) 
+                : [sampleData.trim()];
+
+            // Pick one at random
+            let selectedData = dataList[Math.floor(Math.random() * dataList.length)];
+            generateContentsBody(`(820) 218-6680`, ` `, ` `, ['static/images/Affordable Dumpster.jpg', 'static/images/Business Waste Solutions.jpg', 'static/images/Construction Dumpster.jpg', 'static/images/Construction Waste Dumpster.jpg', 'static/images/Demolition Debris.jpg', 'static/images/Dumpster Containers.jpg', 'static/images/Dumpster Rental Provider.jpg', 'static/images/Dumpster Rental Service.jpg', 'static/images/Easy Dumpster Rental.jpg', 'static/images/Garage Cleanouts.jpg', 'static/images/Heavy Duty Construction.jpg', 'static/images/Household Junk Removal.jpg', 'static/images/Landscaping Cleanup.jpg', 'static/images/Large Dumpster.jpg', 'static/images/Local Dumpster Service.jpg', 'static/images/Roofing Project Waste.jpg', 'static/images/Small Dumpster Rental.jpg', 'static/images/Waste Dumpster Container.jpg', ''], selectedData, `leteriwaste.com`);
+        });
+
+    </script>
+    <br><br><br><br>
+    <div class="containeralooma" id="contact">
+        <section class="boxalooma">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="template4 h2alooma" style="margin-left: 400px; font-size: larger; font-family: Verdana, Geneva, Tahoma, sans-serif;">Frequently Asked Questions</h2>
+                <h4 class="template4 palooma" style="font-size:medium;">What is the most common reason for an extra charge on a dumpster rental?
+                </h4>
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">The most common reasons are overloading the dumpster past the weight limit included in your quote or disposing of prohibited items like tires, hazardous waste, or electronics. We are upfront about all potential charges and will help you choose a roll off dumpster size in #State to avoid them.</p>
+                <h4 class="template4 palooma" style="font-size:large;">Can I put the dumpster on the street?
+                </h4>
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">In most municipalities, placing a roll off dumpster on a public street requires a permit. We recommend checking with your local city or town hall before scheduling your delivery if you cannot place it on your own property.</p>
+                <h4 class="template4 palooma" style="font-size:large;">What if I fill my dumpster and my project isn't finished?
+                </h4>
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">No problem at all. Just give us a call, and we can schedule what’s called a "dump and return." We will come pick up the full dumpster and deliver a fresh, empty one so your project doesn't lose momentum.</p>
+                <h4 class="template4 palooma" style="font-size:large;"> What is the difference between construction debris and household junk?
+                </h4>
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Construction debris includes materials like wood, drywall, roofing, and siding. Household junk is more general, like old furniture, clothes, and clutter. Both can go in our dumpsters, but heavy debris like concrete needs its own dedicated concrete roll off dumpster in #State.</p>
+                <h4 class="template4 palooma" style="font-size:large;">How far in advance do I need to order my dumpster?
+                </h4>
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">We recommend ordering your roll off rental at least 24-48 hours in advance. For our emergency storm cleanup service, we do our best to provide same-day service whenever possible.</p>
+                <div class="callalooma mx-auto"><a href="tel:820-218-6680">Click Here To Call Us (820) 218-6680</a></div>
+            </div>
+        </div>
+        </section>
+    </div>
+    
+    
+    <br><br><br><br>
+    <div class="containeralooma" style="background-color: transparent; width: 100%;">
+        <section class="boxalooma" style="text-align: center;">
+        <h2 class="heading-with-line template4 h2alooma">States In USA</h2>
+        <div class="row">
+            
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-ny/" id="aloomafotter">New York</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-ca/" id="aloomafotter">California</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-il/" id="aloomafotter">Illinois</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-fl/" id="aloomafotter">Florida</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-tx/" id="aloomafotter">Texas</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-pa/" id="aloomafotter">Pennsylvania</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-ga/" id="aloomafotter">Georgia</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-dc/" id="aloomafotter">District Of Columbia</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-ma/" id="aloomafotter">Massachusetts</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-az/" id="aloomafotter">Arizona</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-mi/" id="aloomafotter">Michigan</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-wa/" id="aloomafotter">Washington</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-mn/" id="aloomafotter">Minnesota</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-co/" id="aloomafotter">Colorado</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-md/" id="aloomafotter">Maryland</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-nv/" id="aloomafotter">Nevada</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-mo/" id="aloomafotter">Missouri</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-or/" id="aloomafotter">Oregon</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-oh/" id="aloomafotter">Ohio</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-in/" id="aloomafotter">Indiana</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-nc/" id="aloomafotter">North Carolina</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-va/" id="aloomafotter">Virginia</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-wi/" id="aloomafotter">Wisconsin</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-ri/" id="aloomafotter">Rhode Island</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-ut/" id="aloomafotter">Utah</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-tn/" id="aloomafotter">Tennessee</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-ky/" id="aloomafotter">Kentucky</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-ok/" id="aloomafotter">Oklahoma</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-ct/" id="aloomafotter">Connecticut</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-la/" id="aloomafotter">Louisiana</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-hi/" id="aloomafotter">Hawaii</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-ne/" id="aloomafotter">Nebraska</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-nm/" id="aloomafotter">New Mexico</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-al/" id="aloomafotter">Alabama</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-sc/" id="aloomafotter">South Carolina</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-ia/" id="aloomafotter">Iowa</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-ks/" id="aloomafotter">Kansas</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-ar/" id="aloomafotter">Arkansas</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-id/" id="aloomafotter">Idaho</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-ms/" id="aloomafotter">Mississippi</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-nj/" id="aloomafotter">New Jersey</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-ak/" id="aloomafotter">Alaska</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-nh/" id="aloomafotter">New Hampshire</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-me/" id="aloomafotter">Maine</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-nd/" id="aloomafotter">North Dakota</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-wv/" id="aloomafotter">West Virginia</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-sd/" id="aloomafotter">South Dakota</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-de/" id="aloomafotter">Delaware</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-mt/" id="aloomafotter">Montana</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-vt/" id="aloomafotter">Vermont</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-wy/" id="aloomafotter">Wyoming</a></div>
+        </div>
+
+        </div>
+        </section>
+    </div>
+
+    <br><br><br><br>
+    <div class="containeralooma" style="background-color: transparent; width: 100%;">
+        <section class="boxalooma" style="text-align: center;">
+        <h2 class="heading-with-line template4 h2alooma">Most popular cities we serve</h2>
+        <div class="row">
+            
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-lakeland-tn/" id="aloomafotter">Lakeland</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-bonner-springs-ks/" id="aloomafotter">Bonner Springs</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-mantua-va/" id="aloomafotter">Mantua</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-greeneville-tn/" id="aloomafotter">Greeneville</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-farley-ky/" id="aloomafotter">Farley</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-marvell-ar/" id="aloomafotter">Marvell</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-dardanelle-ar/" id="aloomafotter">Dardanelle</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-lebanon-south-pa/" id="aloomafotter">Lebanon South</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-mission-canyon-ca/" id="aloomafotter">Mission Canyon</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-key-west-fl/" id="aloomafotter">Key West</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-holyoke-ma/" id="aloomafotter">Holyoke</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-morrilton-ar/" id="aloomafotter">Morrilton</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-haviland-ny/" id="aloomafotter">Haviland</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-birdsboro-pa/" id="aloomafotter">Birdsboro</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-smyrna-de/" id="aloomafotter">Smyrna</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-camino-tassajara-ca/" id="aloomafotter">Camino Tassajara</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-flora-in/" id="aloomafotter">Flora</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-plainview-ny/" id="aloomafotter">Plainview</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-middletown-in/" id="aloomafotter">Middletown</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-rainier-or/" id="aloomafotter">Rainier</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-spanish-fort-al/" id="aloomafotter">Spanish Fort</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-parkland-wa/" id="aloomafotter">Parkland</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-henderson-tn/" id="aloomafotter">Henderson</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-ocean-gate-nj/" id="aloomafotter">Ocean Gate</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-montclair-ca/" id="aloomafotter">Montclair</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-west-bishop-ca/" id="aloomafotter">West Bishop</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-gloversville-ny/" id="aloomafotter">Gloversville</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-creston-ia/" id="aloomafotter">Creston</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-st-elmo-il/" id="aloomafotter">St. Elmo</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-hughesville-pa/" id="aloomafotter">Hughesville</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-north-gates-ny/" id="aloomafotter">North Gates</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-annapolis-md/" id="aloomafotter">Annapolis</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-boalsburg-pa/" id="aloomafotter">Boalsburg</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-mount-vernon-ia/" id="aloomafotter">Mount Vernon</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-new-haven-wv/" id="aloomafotter">New Haven</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-mount-pleasant-nc/" id="aloomafotter">Mount Pleasant</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-armada-mi/" id="aloomafotter">Armada</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-beaufort-sc/" id="aloomafotter">Beaufort</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-mountain-grove-mo/" id="aloomafotter">Mountain Grove</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-flora-vista-nm/" id="aloomafotter">Flora Vista</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-east-islip-ny/" id="aloomafotter">East Islip</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-geneva-in/" id="aloomafotter">Geneva</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-middleburg-fl/" id="aloomafotter">Middleburg</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-holgate-oh/" id="aloomafotter">Holgate</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-ofallon-mo/" id="aloomafotter">O'Fallon</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-eagle-grove-ia/" id="aloomafotter">Eagle Grove</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-wonder-lake-il/" id="aloomafotter">Wonder Lake</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-gambrills-md/" id="aloomafotter">Gambrills</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-muenster-tx/" id="aloomafotter">Muenster</a></div>
+        </div>
+
+        <div class="col-m-2" id="aloomafotter1">
+            <div id="aloomafotter2"><a href="/dumpster-rental-greenfield-tn/" id="aloomafotter">Greenfield</a></div>
+        </div>
+
+        </div>
+        </section>
+    </div>
+    
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+					<div class="col-l-5">
+						<div class="h4" style="color: #ffffff; font-size: larger;">Disclaimer</div>
+						<p class="mb-4">This site is a dumpster rental service to assist homeowners in connecting with local service providers. All contractors/providers are independent and this site does not warrant or guarantee any work performed. It is the responsibility of the homeowner to verify that the hired contractor furnishes the necessary license and insurance required for the work being performed. All persons depicted in a photo or video are actors or models and not contractors listed on this site.</p>
+					</div>
+          <div class="col-l-2 col-m-3 footer-links">
+            <h4>Services</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Review</a></li>
+              <li><a href="#">Our Services</a></li>
+              <li><a href="#">About</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright text-center">
+      <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
+
+        <div class="d-flex flex-column align-items-center align-items-lg-start">
+          <div>
+            © Leteri Dumpster Rental
+          </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div class="scroll-arrow" id="scrollArrow">&#8675;</div> <!-- Upward pointing arrow -->
+    <div class="callalooma mx-auto scroll-button" id="scrollButton" style="font-family: calibri;"><a href="tel:820218-6680">Click Here To Call Us (820) 218-6680 </a></div>
+      
+      <script>
+         window.addEventListener('scroll', function() {
+               var button = document.getElementById('scrollButton');
+               var arrow = document.getElementById('scrollArrow');
+               if (window.scrollY > 500) {
+                  button.style.display = 'block';
+                  arrow.style.display = 'block';
+               } else {
+                  button.style.display = 'none';
+                  arrow.style.display = 'none';
+               }
+         });
+         // const data = {
+         //    "Maimi": "#mpcstate",
+         //    "Florida": "#mpccites",
+         //    "Arizona": "#mpccounty",
+         //    "Alaska": "#mpcstate",
+         //    "Utah": "#mpccites",
+         //    "Ohio": "#mpccounty",
+         //    "Arkansas": "#mpcstate",
+         //    "Cit": "#mpccites",
+         //    "Coun": "#mpccounty"
+         // };
+
+         // const searchBar = document.getElementById('searchBar');
+         // const resultsContainer = document.getElementById('results');
+
+         // searchBar.addEventListener('input', function() {
+         //    const query = searchBar.value.toLowerCase();
+         //    resultsContainer.innerHTML = '';
+
+         //    if (query) {
+         //          resultsContainer.style.display = 'flex'; // Show results container
+         //          for (const [key, value] of Object.entries(data)) {
+         //             if (key.toLowerCase().includes(query)) {
+         //                const resultItem = document.createElement('div');
+         //                resultItem.className = 'result-item';
+         //                resultItem.innerHTML = `<a href="${value}">${key}</a>`;
+         //                resultsContainer.appendChild(resultItem);
+         //             }
+         //          }
+         //    } else {
+         //          resultsContainer.style.display = 'none'; // Hide results container
+         //    }
+         // });
+      </script>
+      
+
+
+  <!-- Vendor JS Files -->
+  <script src="static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="static/vendor/php-email-form/validate.js"></script>
+  <script src="static/vendor/aos/aos.js"></script>
+  <script src="static/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="static/vendor/glightbox/js/glightbox.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="static/js/main.js"></script>
+
+<script src="https://kit.fontawesome.com/c4c9a6665b.js" crossorigin="anonymous"></script></body>
+
+</html>
